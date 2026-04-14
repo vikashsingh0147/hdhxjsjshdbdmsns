@@ -37,9 +37,9 @@ class Config:
     ]
     
     DEFAULT_DURATION = 180
-    MAX_ATTACK_DURATION = 240
-    COOLDOWN_SECONDS = 240
-    MAX_CONCURRENT_ATTACKS = 6
+    MAX_ATTACK_DURATION = 180
+    COOLDOWN_SECONDS = 360
+    MAX_CONCURRENT_ATTACKS = 4
     PROGRESS_UPDATE_INTERVAL = 2
     
     API_BASE_URL = "https://retrostress.net"
@@ -53,7 +53,7 @@ class Config:
         '1m': 720, '2m': 1440, '1y': 8760
     }
     
-    DEFAULT_DAILY_LIMIT = 10
+    DEFAULT_DAILY_LIMIT = 100
 
 # ============== LOGGING ==============
 logging.basicConfig(
